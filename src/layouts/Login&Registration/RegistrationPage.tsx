@@ -109,7 +109,8 @@ export const RegistrationPage = () => {
 
         <div>
           <p className="text-white d-flex justify-content-center align-items-center mt-4">
-            What type of gym membership card do you want to choose?
+            What type of gym membership card do you want to choose? <br/>
+            Premium and master tickets entitle you to participate in group training.
           </p>
         </div>
         <div className="d-flex justify-content-center align-items-center mt-1">
