@@ -1,6 +1,5 @@
-import React from "react";
 import "./Login&Registration.css";
-import { useRef, useState, useEffect } from "react";
+
 import { RegisterValidation } from "../../validation/RegisterValidation";
 import { RegisterClient } from "../../model/RegisterModel";
 import { useFormik } from "formik";
@@ -109,8 +108,9 @@ export const RegistrationPage = () => {
 
         <div>
           <p className="text-white d-flex justify-content-center align-items-center mt-4">
-            What type of gym membership card do you want to choose? <br/>
-            Premium and master tickets entitle you to participate in group training.
+            What type of gym membership card do you want to choose? <br />
+            Premium and master tickets entitle you to participate in group
+            training.
           </p>
         </div>
         <div className="d-flex justify-content-center align-items-center mt-1">

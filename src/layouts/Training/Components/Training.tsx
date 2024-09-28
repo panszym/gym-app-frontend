@@ -12,7 +12,6 @@ export const Training = () => {
   const [trainingPerPage] = useState(8);
   const [totalAmountOfTraining, setTotalAmountOfTraining] = useState(0);
   const [totalPages, setTotalPages] = useState(0);
-  const [search, setSearch] = useState('');
   const [searchUrl, setSearchUrl] = useState('');
   const [statusSelection, setStatusSelection] = useState('Status');
   const [categorySelection, setCategorySelection] = useState('Category');
