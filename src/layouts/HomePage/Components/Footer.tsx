@@ -31,7 +31,7 @@ export const Footer = () => {
           </li>
           <li className="nav-item">
             <Link onClick={scroll} className="nav-link px-2 text-white" to="/training">
-              Search trainings
+              Search training
             </Link>
           </li>
           <li className="nav-item">

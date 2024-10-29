@@ -57,7 +57,7 @@ export const Navbar = () => {
               Home
             </NavLink>
             <NavLink className="nav-link" to="/training">
-              Trainings
+              Search training
             </NavLink>
             <NavLink className="nav-link" to="/client/bmi">
               BMI calculator
